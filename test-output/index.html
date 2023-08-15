@@ -1,0 +1,1142 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\marup\eclipse-workspace\Maveen\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">35 methods,   35 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="LoginWith_Digits">LoginWith_Digits</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="LoginWith_EmtyValues">LoginWith_EmtyValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="LoginWith_SpecialChar">LoginWith_SpecialChar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Validate_LoginClick">Validate_LoginClick</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="Validate_Text">Validate_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Validate_Text">Validate_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_Text">Validate_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_Text">Validate_Text</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Validate_Title">Validate_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.VerifyURL_TItle" class="method navigator-link" hash-for-method="Validate_Title">Validate_Title</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.VerifyURL_TItle" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_URl">Validate_URl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_username_Valid">Validate_username_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="Validate_username_Valid">Validate_username_Valid</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_username_nagetiveone">Validate_username_nagetiveone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Validate_username_nagetiveone">Validate_username_nagetiveone</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_username_nagetivethree">Validate_username_nagetivethree</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Validate_username_nagetivetwo">Validate_username_nagetivetwo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Validate_username_pass">Validate_username_pass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Assert_Validation" class="method navigator-link" hash-for-method="Verify_Printer">Verify_Printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.VerifyURL_TItle" class="method navigator-link" hash-for-method="Verify_Printer">Verify_Printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.Validate_Login" class="method navigator-link" hash-for-method="Verify_Printer">Verify_Printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.SenkeysMethds" class="method navigator-link" hash-for-method="Verify_Printer">Verify_Printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testCases.NagetiveSendkeys" class="method navigator-link" hash-for-method="Verify_Printer">Verify_Printer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.NagetiveSendkeys</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_Digits">
+                  </a> <!-- LoginWith_Digits -->
+                  <span class="method-name">LoginWith_Digits</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_EmtyValues">
+                  </a> <!-- LoginWith_EmtyValues -->
+                  <span class="method-name">LoginWith_EmtyValues</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginWith_SpecialChar">
+                  </a> <!-- LoginWith_SpecialChar -->
+                  <span class="method-name">LoginWith_SpecialChar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Text">
+                  </a> <!-- Validate_Text -->
+                  <span class="method-name">Validate_Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_Valid">
+                  </a> <!-- Validate_username_Valid -->
+                  <span class="method-name">Validate_username_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Printer">
+                  </a> <!-- Verify_Printer -->
+                  <span class="method-name">Verify_Printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Assert_Validation</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Text">
+                  </a> <!-- Validate_Text -->
+                  <span class="method-name">Validate_Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_nagetiveone">
+                  </a> <!-- Validate_username_nagetiveone -->
+                  <span class="method-name">Validate_username_nagetiveone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Printer">
+                  </a> <!-- Verify_Printer -->
+                  <span class="method-name">Verify_Printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.VerifyURL_TItle</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Title">
+                  </a> <!-- Validate_Title -->
+                  <span class="method-name">Validate_Title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Printer">
+                  </a> <!-- Verify_Printer -->
+                  <span class="method-name">Verify_Printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.SenkeysMethds</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Text">
+                  </a> <!-- Validate_Text -->
+                  <span class="method-name">Validate_Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_Valid">
+                  </a> <!-- Validate_username_Valid -->
+                  <span class="method-name">Validate_username_Valid</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_nagetiveone">
+                  </a> <!-- Validate_username_nagetiveone -->
+                  <span class="method-name">Validate_username_nagetiveone</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_nagetivethree">
+                  </a> <!-- Validate_username_nagetivethree -->
+                  <span class="method-name">Validate_username_nagetivethree</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_nagetivetwo">
+                  </a> <!-- Validate_username_nagetivetwo -->
+                  <span class="method-name">Validate_username_nagetivetwo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Printer">
+                  </a> <!-- Verify_Printer -->
+                  <span class="method-name">Verify_Printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testCases.Validate_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_LoginClick">
+                  </a> <!-- Validate_LoginClick -->
+                  <span class="method-name">Validate_LoginClick</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Text">
+                  </a> <!-- Validate_Text -->
+                  <span class="method-name">Validate_Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_Title">
+                  </a> <!-- Validate_Title -->
+                  <span class="method-name">Validate_Title</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_URl">
+                  </a> <!-- Validate_URl -->
+                  <span class="method-name">Validate_URl</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Validate_username_pass">
+                  </a> <!-- Validate_username_pass -->
+                  <span class="method-name">Validate_username_pass</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Verify_Printer">
+                  </a> <!-- Verify_Printer -->
+                  <span class="method-name">Verify_Printer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\marup\eclipse-workspace\Maveen\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testCases.SenkeysMethds&quot;/&gt;
+      &lt;class name=&quot;testCases.Assert_Validation&quot;/&gt;
+      &lt;class name=&quot;testCases.NagetiveSendkeys&quot;/&gt;
+      &lt;class name=&quot;testCases.Validate_Login&quot;/&gt;
+      &lt;class name=&quot;testCases.VerifyURL_TItle&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (5 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(35);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'LoginWith_EmtyValues')
+data.setCell(0, 2, 'testCases.NagetiveSendkeys')
+data.setCell(0, 3, 19488);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Validate_username_nagetivethree')
+data.setCell(1, 2, 'testCases.SenkeysMethds')
+data.setCell(1, 3, 19482);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginWith_Digits')
+data.setCell(2, 2, 'testCases.NagetiveSendkeys')
+data.setCell(2, 3, 18213);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Validate_username_nagetiveone')
+data.setCell(3, 2, 'testCases.SenkeysMethds')
+data.setCell(3, 3, 17512);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Validate_username_nagetivetwo')
+data.setCell(4, 2, 'testCases.SenkeysMethds')
+data.setCell(4, 3, 17421);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'LoginWith_SpecialChar')
+data.setCell(5, 2, 'testCases.NagetiveSendkeys')
+data.setCell(5, 3, 17275);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Validate_username_Valid')
+data.setCell(6, 2, 'testCases.SenkeysMethds')
+data.setCell(6, 3, 15352);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Validate_username_Valid')
+data.setCell(7, 2, 'testCases.NagetiveSendkeys')
+data.setCell(7, 3, 15296);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Validate_username_nagetiveone')
+data.setCell(8, 2, 'testCases.Assert_Validation')
+data.setCell(8, 3, 15184);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Validate_username_pass')
+data.setCell(9, 2, 'testCases.Validate_Login')
+data.setCell(9, 3, 12972);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Validate_URl')
+data.setCell(10, 2, 'testCases.Assert_Validation')
+data.setCell(10, 3, 5088);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Validate_URl')
+data.setCell(11, 2, 'testCases.Assert_Validation')
+data.setCell(11, 3, 5080);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'Validate_URl')
+data.setCell(12, 2, 'testCases.Assert_Validation')
+data.setCell(12, 3, 5080);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'Validate_URl')
+data.setCell(13, 2, 'testCases.Assert_Validation')
+data.setCell(13, 3, 5077);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'Validate_URl')
+data.setCell(14, 2, 'testCases.SenkeysMethds')
+data.setCell(14, 3, 5074);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'Validate_URl')
+data.setCell(15, 2, 'testCases.Assert_Validation')
+data.setCell(15, 3, 5073);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'Validate_URl')
+data.setCell(16, 2, 'testCases.Assert_Validation')
+data.setCell(16, 3, 5068);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'Validate_URl')
+data.setCell(17, 2, 'testCases.Assert_Validation')
+data.setCell(17, 3, 5067);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'Validate_URl')
+data.setCell(18, 2, 'testCases.Assert_Validation')
+data.setCell(18, 3, 5065);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'Validate_URl')
+data.setCell(19, 2, 'testCases.Assert_Validation')
+data.setCell(19, 3, 5064);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'Validate_URl')
+data.setCell(20, 2, 'testCases.Assert_Validation')
+data.setCell(20, 3, 5061);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'Validate_URl')
+data.setCell(21, 2, 'testCases.VerifyURL_TItle')
+data.setCell(21, 3, 5036);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'Validate_URl')
+data.setCell(22, 2, 'testCases.Validate_Login')
+data.setCell(22, 3, 5030);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'Validate_Text')
+data.setCell(23, 2, 'testCases.NagetiveSendkeys')
+data.setCell(23, 3, 2597);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'Validate_LoginClick')
+data.setCell(24, 2, 'testCases.Validate_Login')
+data.setCell(24, 3, 2287);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'Validate_Text')
+data.setCell(25, 2, 'testCases.SenkeysMethds')
+data.setCell(25, 3, 2154);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'Validate_Text')
+data.setCell(26, 2, 'testCases.Assert_Validation')
+data.setCell(26, 3, 2139);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'Validate_Text')
+data.setCell(27, 2, 'testCases.Validate_Login')
+data.setCell(27, 3, 2078);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'Validate_Title')
+data.setCell(28, 2, 'testCases.Validate_Login')
+data.setCell(28, 3, 26);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'Verify_Printer')
+data.setCell(29, 2, 'testCases.SenkeysMethds')
+data.setCell(29, 3, 18);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'Validate_Title')
+data.setCell(30, 2, 'testCases.VerifyURL_TItle')
+data.setCell(30, 3, 14);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'Verify_Printer')
+data.setCell(31, 2, 'testCases.Validate_Login')
+data.setCell(31, 3, 2);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'Verify_Printer')
+data.setCell(32, 2, 'testCases.Assert_Validation')
+data.setCell(32, 3, 1);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'Verify_Printer')
+data.setCell(33, 2, 'testCases.VerifyURL_TItle')
+data.setCell(33, 3, 1);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'Verify_Printer')
+data.setCell(34, 2, 'testCases.NagetiveSendkeys')
+data.setCell(34, 3, 1);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.SenkeysMethds</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Printer</span>
+                <span class="method-start">11474 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Verify_Printer status=SUCCESS method=SenkeysMethds.Verify_Printer()[pri:0, instance...)</span>
+                <span class="method-start">11498 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">11514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=SenkeysMethds.Validate_URl()[pri:1, instance:tes...)</span>
+                <span class="method-start">16592 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Text</span>
+                <span class="method-start">16594 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Text status=SUCCESS method=SenkeysMethds.Validate_Text()[pri:2, instance:t...)</span>
+                <span class="method-start">18751 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_nagetiveone</span>
+                <span class="method-start">18753 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_nagetiveone status=SUCCESS method=SenkeysMethds.Validate_username...)</span>
+                <span class="method-start">36268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_nagetivetwo</span>
+                <span class="method-start">36270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_nagetivetwo status=SUCCESS method=SenkeysMethds.Validate_username...)</span>
+                <span class="method-start">53693 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_nagetivethree</span>
+                <span class="method-start">53695 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_nagetivethree status=SUCCESS method=SenkeysMethds.Validate_userna...)</span>
+                <span class="method-start">73179 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_Valid</span>
+                <span class="method-start">73181 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_Valid status=SUCCESS method=SenkeysMethds.Validate_username_Valid...)</span>
+                <span class="method-start">88536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closewindow</span>
+                <span class="method-start">88541 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Assert_Validation</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">88717 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">95207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">100272 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">100273 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">105348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">105349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">110431 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">110433 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">115522 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">115523 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">120591 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">120591 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">125652 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">125653 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">130722 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">130722 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">135804 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">135805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">140872 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">140873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Assert_Validation.Validate_URl()[pri:0, instance...)</span>
+                <span class="method-start">145952 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Verify_Printer</span>
+                <span class="method-start">145953 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Verify_Printer status=SUCCESS method=Assert_Validation.Verify_Printer()[pri:0, inst...)</span>
+                <span class="method-start">145955 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Text</span>
+                <span class="method-start">145956 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Text status=SUCCESS method=Assert_Validation.Validate_Text()[pri:2, instan...)</span>
+                <span class="method-start">148097 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_nagetiveone</span>
+                <span class="method-start">148098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_nagetiveone status=SUCCESS method=Assert_Validation.Validate_user...)</span>
+                <span class="method-start">163284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closewindow</span>
+                <span class="method-start">163285 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.NagetiveSendkeys</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">163443 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Printer</span>
+                <span class="method-start">166918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Verify_Printer status=SUCCESS method=NagetiveSendkeys.Verify_Printer()[pri:0, insta...)</span>
+                <span class="method-start">166920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Text</span>
+                <span class="method-start">166922 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Text status=SUCCESS method=NagetiveSendkeys.Validate_Text()[pri:1, instanc...)</span>
+                <span class="method-start">169520 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_SpecialChar</span>
+                <span class="method-start">169521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=LoginWith_SpecialChar status=SUCCESS method=NagetiveSendkeys.LoginWith_SpecialChar(...)</span>
+                <span class="method-start">186798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_Digits</span>
+                <span class="method-start">186799 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=LoginWith_Digits status=SUCCESS method=NagetiveSendkeys.LoginWith_Digits()[pri:3, i...)</span>
+                <span class="method-start">205014 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">LoginWith_EmtyValues</span>
+                <span class="method-start">205016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=LoginWith_EmtyValues status=SUCCESS method=NagetiveSendkeys.LoginWith_EmtyValues()[...)</span>
+                <span class="method-start">224505 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_Valid</span>
+                <span class="method-start">224507 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_Valid status=SUCCESS method=NagetiveSendkeys.Validate_username_Va...)</span>
+                <span class="method-start">239805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closewindow</span>
+                <span class="method-start">239806 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.Validate_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">239983 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Printer</span>
+                <span class="method-start">243674 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Verify_Printer status=SUCCESS method=Validate_Login.Verify_Printer()[pri:0, instanc...)</span>
+                <span class="method-start">243680 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">243684 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=Validate_Login.Validate_URl()[pri:1, instance:te...)</span>
+                <span class="method-start">248715 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Title</span>
+                <span class="method-start">248716 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Title status=SUCCESS method=Validate_Login.Validate_Title()[pri:2, instanc...)</span>
+                <span class="method-start">248743 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Text</span>
+                <span class="method-start">248744 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Text status=SUCCESS method=Validate_Login.Validate_Text()[pri:3, instance:...)</span>
+                <span class="method-start">250823 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_username_pass</span>
+                <span class="method-start">250825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_username_pass status=SUCCESS method=Validate_Login.Validate_username_pass(...)</span>
+                <span class="method-start">263799 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_LoginClick</span>
+                <span class="method-start">263800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_LoginClick status=SUCCESS method=Validate_Login.Validate_LoginClick()[pri:...)</span>
+                <span class="method-start">266093 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closewindow</span>
+                <span class="method-start">266094 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testCases.VerifyURL_TItle</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">OpenBrowser</span>
+                <span class="method-start">266197 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Verify_Printer</span>
+                <span class="method-start">269874 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Verify_Printer status=SUCCESS method=VerifyURL_TItle.Verify_Printer()[pri:0, instan...)</span>
+                <span class="method-start">269876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_URl</span>
+                <span class="method-start">269877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_URl status=SUCCESS method=VerifyURL_TItle.Validate_URl()[pri:1, instance:t...)</span>
+                <span class="method-start">274914 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">Validate_Title</span>
+                <span class="method-start">274914 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">closewindow</span>
+                <span class="method-start">274929 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-method after">
+                <span class="method-name">Screenshot([TestResult name=Validate_Title status=SUCCESS method=VerifyURL_TItle.Validate_Title()[pri:2, instan...)</span>
+                <span class="method-start">274929 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
